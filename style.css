@@ -18,6 +18,7 @@ body {
 }
 
 .principal {
+    /*colocamos a imagem aqui no css e não pela tag img no index porque ela é decorativa*/
     background-image: url("img/Background.png");
     /*para não repetir o background*/
     background-repeat: no-repeat;
@@ -27,6 +28,14 @@ body {
 
 /*significa viewport height que significa a altura da tela do dispositivo e ele usa 100% dela por cousa do vh*/
 .container {
-    height: 100vh;
-    
+    height: 100vh;    
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    /*faz o botão ocupar o bloco inteiro*/
+    display: block;
 }
