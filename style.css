@@ -47,6 +47,7 @@ body {
     /*faz o botão ocupar o bloco inteiro*/
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 /*colocando os diferenciais dos botões*/
@@ -63,4 +64,12 @@ body {
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }
