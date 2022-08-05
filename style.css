@@ -28,6 +28,9 @@ body {
     background-repeat: no-repeat;
     /*fazer o background ocupar ou preenche todo o container que é a saction*/
     background-size: contain;
+    align-items: center;
+    /*aqui ele alinhau não só os textos mas a imagem também, ele alinha tudo que está em um elemento de bloco, por padrão a saction em com display block*/
+    text-align: center;
 }
 
 /*significa viewport height que significa a altura da tela do dispositivo e ele usa 100% dela por cousa do vh*/
@@ -72,4 +75,24 @@ body {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
 }
