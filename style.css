@@ -28,7 +28,11 @@ body {
 
 /*significa viewport height que significa a altura da tela do dispositivo e ele usa 100% dela por cousa do vh*/
 .container {
-    height: 100vh;    
+    height: 100vh;
+    /*aqui tentamos resolver o problema do botão que está grande, e definimos como o display aqui como grid, ai vamos lá index e e coloque uma div envolvendo todos os elementos mas dentro da saction*/
+    display: grid;   
+    /*aqui os elementos são separados um ao lado do outro mas aqui como colunas como está definido ocupando 50% cada*/
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao {
@@ -38,4 +42,10 @@ body {
     color: var(--branco-principal);
     /*faz o botão ocupar o bloco inteiro*/
     display: block;
+}
+
+/*colocando os diferenciais dos botões*/
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
