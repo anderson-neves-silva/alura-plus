@@ -16,3 +16,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.principal {
+    background-image: url("img/Background.png");
+    /*para não repetir o background*/
+    background-repeat: no-repeat;
+    /*fazer o background ocupar ou preenche todo o container que é a saction*/
+    background-size: contain;
+}
+
+/*significa viewport height que significa a altura da tela do dispositivo e ele usa 100% dela por cousa do vh*/
+.container {
+    height: 100vh;
+    
+}
