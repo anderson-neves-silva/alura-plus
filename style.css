@@ -105,3 +105,30 @@ body {
 .container__descricao {
     padding: 2em;
 }
+
+.dispositivos__lista {
+    /*transforma a lista em um flex container e todos os itens dessa lista que são os fillhos dele são os flex itens*/
+    display: flex;
+    /*aqui ele centraliza todo o flex container*/
+    justify-content: center;
+    /*retira todos os marcadores da lista*/
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+/*centraliza todos os textos que está nessa saction*/
+.dispositivo {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
