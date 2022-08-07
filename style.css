@@ -6,6 +6,8 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    /*variável de efeito do botão*/
+    --botao-azul-efeito: #74b3ff;
 }
 
 body {
@@ -135,6 +137,7 @@ body {
 
 .rodape {
     text-align: center;
+    margin: 5em 3em;
 }
 
 .rodape__lista {
@@ -158,6 +161,22 @@ body {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    color: var(--branco-principal);
+    color: var(--cinza-secundario);
     margin: 3em 3em;
+}
+
+/*efeito ao passa o mouse*/
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+/*efeito ao clicar o mouse*/
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+    border: none;
 }
